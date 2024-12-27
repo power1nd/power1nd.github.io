@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a .fa-steam {
+    color: #000000;
+}
+
+.social-icons a .fa-twitter {
+    color: #1DA1F2;
+}
+
+.social-icons a .fa-youtube {
+    color: #FF0000;
+}
+
+.social-icons a .fa-twitch {
+    color: #9146FF;
+}
+
+.social-icons a .fa-envelope {
+    color: #D44638;
+}
+
+.social-icons a .fa-discord {
+    color: #7289DA;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
